@@ -1,0 +1,19 @@
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+*.cache
+*.db
+*.opendb
+*.VC.db
+
+# Build results
+bin/
+obj/
+
+# Others
+*.log
+*.vsix
+*.ncb
+*.sdf
+*.pdb
