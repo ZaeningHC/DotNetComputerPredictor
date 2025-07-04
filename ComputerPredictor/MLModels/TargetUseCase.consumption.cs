@@ -94,7 +94,7 @@ namespace ComputerPredictor
 
         #endregion
 
-        private static string MLNetModelPath = Path.GetFullPath(Path.Combine("MLModels", "TargetUseCase.mlnet"));
+        private static string MLNetModelPath = Path.GetFullPath("MLModels/TargetUseCase.mlnet");
 
         public static readonly Lazy<PredictionEngine<ModelInput, ModelOutput>> PredictEngine = new Lazy<PredictionEngine<ModelInput, ModelOutput>>(() => CreatePredictEngine(), true);
 

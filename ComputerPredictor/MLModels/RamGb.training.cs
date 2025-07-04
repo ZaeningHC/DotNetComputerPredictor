@@ -15,7 +15,7 @@ namespace ComputerPredictor
 {
     public partial class RamGb
     {
-        public const string RetrainFilePath =  @"C:\Users\simon\source\repos\ComputerPredictor\ComputerPredictor\Files\computers.csv";
+        public const string RetrainFilePath =  @"C:\Users\simon\source\repos\DotNetComputerPredictor\ComputerPredictor\Files\computers.csv";
         public const char RetrainSeparatorChar = ',';
         public const bool RetrainHasHeader =  true;
         public const bool RetrainAllowQuoting =  false;
@@ -95,7 +95,7 @@ namespace ComputerPredictor
                                     .Append(mlContext.Transforms.ReplaceMissingValues(new []{new InputOutputColumnPair(@"cpu_speed_ghz", @"cpu_speed_ghz"),new InputOutputColumnPair(@"cpu_cores", @"cpu_cores"),new InputOutputColumnPair(@"storage_gb", @"storage_gb"),new InputOutputColumnPair(@"price_usd", @"price_usd")}))      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"storage_type",@"operating_system",@"target_use_case",@"cpu_speed_ghz",@"cpu_cores",@"storage_gb",@"price_usd"}))      
                                     .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName:@"ram_gb",inputColumnName:@"ram_gb",addKeyValueAnnotationsAsText:false))      
-                                    .Append(mlContext.MulticlassClassification.Trainers.LightGbm(new LightGbmMulticlassTrainer.Options(){NumberOfLeaves=237,NumberOfIterations=4,MinimumExampleCountPerLeaf=20,LearningRate=0.9999997766729865,LabelColumnName=@"ram_gb",FeatureColumnName=@"Features",Booster=new GradientBooster.Options(){SubsampleFraction=0.5606044039074134,FeatureFraction=0.99999999,L1Regularization=3.4412111589780984E-10,L2Regularization=0.5874479556563449},MaximumBinCountPerFeature=179}))      
+                                    .Append(mlContext.MulticlassClassification.Trainers.LightGbm(new LightGbmMulticlassTrainer.Options(){NumberOfLeaves=4,NumberOfIterations=649,MinimumExampleCountPerLeaf=20,LearningRate=0.6405011586356651,LabelColumnName=@"ram_gb",FeatureColumnName=@"Features",Booster=new GradientBooster.Options(){SubsampleFraction=0.9999997766729865,FeatureFraction=0.9677018758765564,L1Regularization=3.104464036542983E-10,L2Regularization=0.9999997766729865},MaximumBinCountPerFeature=239}))      
                                     .Append(mlContext.Transforms.Conversion.MapKeyToValue(outputColumnName:@"PredictedLabel",inputColumnName:@"PredictedLabel"));
 
             return pipeline;

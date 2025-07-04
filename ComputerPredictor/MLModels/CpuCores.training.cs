@@ -15,7 +15,7 @@ namespace ComputerPredictor
 {
     public partial class CpuCores
     {
-        public const string RetrainFilePath =  @"C:\Users\simon\source\repos\ComputerPredictor\ComputerPredictor\Files\computers.csv";
+        public const string RetrainFilePath =  @"C:\Users\simon\source\repos\DotNetComputerPredictor\ComputerPredictor\Files\computers.csv";
         public const char RetrainSeparatorChar = ',';
         public const bool RetrainHasHeader =  true;
         public const bool RetrainAllowQuoting =  false;

@@ -8,7 +8,7 @@
     "KeepPunctuations": false,
     "AllowQuoting": false,
     "Type": "TabularFile",
-    "FilePath": "C:\\Users\\simon\\source\\repos\\ComputerPredictor\\ComputerPredictor\\Files\\computers.csv",
+    "FilePath": "C:\\Users\\simon\\source\\repos\\DotNetComputerPredictor\\ComputerPredictor\\Files\\computers.csv",
     "Delimiter": ",",
     "DecimalMarker": ".",
     "HasHeader": true,
@@ -90,11 +90,11 @@
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "LightGbmMulti",
-        "Score": 0.76951107863502821,
-        "RuntimeInSeconds": 0.082,
+        "TrainerName": "FastTreeOva",
+        "Score": 0.79330177750976072,
+        "RuntimeInSeconds": 1.05,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e6 * e11",
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e11",
           "e0": {
             "OutputColumnNames": [
               "storage_type",
@@ -142,29 +142,27 @@
             "InputColumnName": "operating_system",
             "AddKeyValueAnnotationsAsText": false
           },
-          "e6": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 0.99999977667298645,
-            "NumberOfTrees": 4,
-            "SubsampleFraction": 0.36624413140928663,
-            "MaximumBinCountPerFeature": 246,
-            "FeatureFraction": 0.99999999,
-            "L1Regularization": 2.5565692510541515E-10,
-            "L2Regularization": 0.74513418328788172,
+          "e4": {
+            "NumberOfLeaves": 7,
+            "MinimumExampleCountPerLeaf": 21,
+            "NumberOfTrees": 6,
+            "MaximumBinCountPerFeature": 561,
+            "FeatureFraction": 0.95747733093135323,
+            "LearningRate": 0.35195578966812791,
             "LabelColumnName": "operating_system",
-            "FeatureColumnName": "Features"
+            "FeatureColumnName": "Features",
+            "DiskTranspose": false
           }
         }
       },
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "LightGbmMulti",
-        "Score": 0.742224664069202,
-        "RuntimeInSeconds": 0.136,
+        "TrainerName": "FastForestOva",
+        "Score": 0.76896696596276437,
+        "RuntimeInSeconds": 1.175,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e6 * e11",
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e5 * e11",
           "e0": {
             "OutputColumnNames": [
               "storage_type",
@@ -212,16 +210,10 @@
             "InputColumnName": "operating_system",
             "AddKeyValueAnnotationsAsText": false
           },
-          "e6": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 1.0,
+          "e5": {
             "NumberOfTrees": 4,
-            "SubsampleFraction": 1.0,
-            "MaximumBinCountPerFeature": 254,
+            "NumberOfLeaves": 4,
             "FeatureFraction": 1.0,
-            "L1Regularization": 2E-10,
-            "L2Regularization": 1.0,
             "LabelColumnName": "operating_system",
             "FeatureColumnName": "Features"
           }
@@ -231,8 +223,146 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "FastTreeOva",
-        "Score": 0.6813261591738482,
-        "RuntimeInSeconds": 0.81,
+        "Score": 0.76119771482796694,
+        "RuntimeInSeconds": 1.087,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e11",
+          "e0": {
+            "OutputColumnNames": [
+              "storage_type",
+              "target_use_case"
+            ],
+            "InputColumnNames": [
+              "storage_type",
+              "target_use_case"
+            ]
+          },
+          "e1": {
+            "OutputColumnNames": [
+              "cpu_speed_ghz",
+              "cpu_cores",
+              "ram_gb",
+              "storage_gb",
+              "price_usd"
+            ],
+            "InputColumnNames": [
+              "cpu_speed_ghz",
+              "cpu_cores",
+              "ram_gb",
+              "storage_gb",
+              "price_usd"
+            ]
+          },
+          "e11": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnNames": [
+              "storage_type",
+              "target_use_case",
+              "cpu_speed_ghz",
+              "cpu_cores",
+              "ram_gb",
+              "storage_gb",
+              "price_usd"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e3": {
+            "OutputColumnName": "operating_system",
+            "InputColumnName": "operating_system",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e4": {
+            "NumberOfLeaves": 13,
+            "MinimumExampleCountPerLeaf": 24,
+            "NumberOfTrees": 10,
+            "MaximumBinCountPerFeature": 217,
+            "FeatureFraction": 0.95936267137102293,
+            "LearningRate": 0.22292801119936229,
+            "LabelColumnName": "operating_system",
+            "FeatureColumnName": "Features",
+            "DiskTranspose": false
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.75486408802060068,
+        "RuntimeInSeconds": 1.461,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e6 * e11",
+          "e0": {
+            "OutputColumnNames": [
+              "storage_type",
+              "target_use_case"
+            ],
+            "InputColumnNames": [
+              "storage_type",
+              "target_use_case"
+            ]
+          },
+          "e1": {
+            "OutputColumnNames": [
+              "cpu_speed_ghz",
+              "cpu_cores",
+              "ram_gb",
+              "storage_gb",
+              "price_usd"
+            ],
+            "InputColumnNames": [
+              "cpu_speed_ghz",
+              "cpu_cores",
+              "ram_gb",
+              "storage_gb",
+              "price_usd"
+            ]
+          },
+          "e11": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnNames": [
+              "storage_type",
+              "target_use_case",
+              "cpu_speed_ghz",
+              "cpu_cores",
+              "ram_gb",
+              "storage_gb",
+              "price_usd"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e3": {
+            "OutputColumnName": "operating_system",
+            "InputColumnName": "operating_system",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e6": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 0.51185413907052657,
+            "NumberOfTrees": 580,
+            "SubsampleFraction": 0.99999977667298645,
+            "MaximumBinCountPerFeature": 324,
+            "FeatureFraction": 0.95107759569581329,
+            "L1Regularization": 2.014329809483988E-10,
+            "L2Regularization": 0.6522606451854982,
+            "LabelColumnName": "operating_system",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.7480024023206796,
+        "RuntimeInSeconds": 1.036,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e11",
           "e0": {
@@ -285,144 +415,13 @@
           "e4": {
             "NumberOfLeaves": 4,
             "MinimumExampleCountPerLeaf": 17,
-            "NumberOfTrees": 8,
-            "MaximumBinCountPerFeature": 208,
-            "FeatureFraction": 0.98418041551777391,
-            "LearningRate": 0.092087565113002742,
-            "LabelColumnName": "operating_system",
-            "FeatureColumnName": "Features",
-            "DiskTranspose": false
-          }
-        }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
-        "TrainerName": "FastTreeOva",
-        "Score": 0.59402213775953272,
-        "RuntimeInSeconds": 1.128,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e11",
-          "e0": {
-            "OutputColumnNames": [
-              "storage_type",
-              "target_use_case"
-            ],
-            "InputColumnNames": [
-              "storage_type",
-              "target_use_case"
-            ]
-          },
-          "e1": {
-            "OutputColumnNames": [
-              "cpu_speed_ghz",
-              "cpu_cores",
-              "ram_gb",
-              "storage_gb",
-              "price_usd"
-            ],
-            "InputColumnNames": [
-              "cpu_speed_ghz",
-              "cpu_cores",
-              "ram_gb",
-              "storage_gb",
-              "price_usd"
-            ]
-          },
-          "e11": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
-          "e2": {
-            "InputColumnNames": [
-              "storage_type",
-              "target_use_case",
-              "cpu_speed_ghz",
-              "cpu_cores",
-              "ram_gb",
-              "storage_gb",
-              "price_usd"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e3": {
-            "OutputColumnName": "operating_system",
-            "InputColumnName": "operating_system",
-            "AddKeyValueAnnotationsAsText": false
-          },
-          "e4": {
-            "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 20,
             "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 254,
-            "FeatureFraction": 1.0,
-            "LearningRate": 0.099999999999999978,
+            "MaximumBinCountPerFeature": 1023,
+            "FeatureFraction": 0.95559199049168353,
+            "LearningRate": 0.55566313633927866,
             "LabelColumnName": "operating_system",
             "FeatureColumnName": "Features",
             "DiskTranspose": false
-          }
-        }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
-        "TrainerName": "LbfgsLogisticRegressionOva",
-        "Score": 0.54566083601272675,
-        "RuntimeInSeconds": 0.431,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e7 * e11",
-          "e0": {
-            "OutputColumnNames": [
-              "storage_type",
-              "target_use_case"
-            ],
-            "InputColumnNames": [
-              "storage_type",
-              "target_use_case"
-            ]
-          },
-          "e1": {
-            "OutputColumnNames": [
-              "cpu_speed_ghz",
-              "cpu_cores",
-              "ram_gb",
-              "storage_gb",
-              "price_usd"
-            ],
-            "InputColumnNames": [
-              "cpu_speed_ghz",
-              "cpu_cores",
-              "ram_gb",
-              "storage_gb",
-              "price_usd"
-            ]
-          },
-          "e11": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
-          "e2": {
-            "InputColumnNames": [
-              "storage_type",
-              "target_use_case",
-              "cpu_speed_ghz",
-              "cpu_cores",
-              "ram_gb",
-              "storage_gb",
-              "price_usd"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e3": {
-            "OutputColumnName": "operating_system",
-            "InputColumnName": "operating_system",
-            "AddKeyValueAnnotationsAsText": false
-          },
-          "e7": {
-            "L1Regularization": 1.0,
-            "L2Regularization": 1.0,
-            "LabelColumnName": "operating_system",
-            "FeatureColumnName": "Features"
           }
         }
       }
@@ -443,7 +442,7 @@
     },
     "Schema": "e0 * e1 * e2 * e3 * (e4 + e5 + e6 + e7 + e8 + e9 + e10) * e11",
     "MetricName": "MacroAccuracy",
-    "ModelFilePath": "C:\\Users\\simon\\source\\repos\\ComputerPredictor\\ComputerPredictor\\MLModels\\OperatingSystem.mlnet"
+    "ModelFilePath": "C:\\Users\\simon\\source\\repos\\DotNetComputerPredictor\\ComputerPredictor\\MLModels\\OperatingSystem.mlnet"
   },
   "Type": "TrainingConfig",
   "Version": 5,

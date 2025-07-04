@@ -1,500 +1,500 @@
 cpu_speed_ghz,cpu_cores,ram_gb,storage_type,storage_gb,operating_system,target_use_case,price_usd
-2.3,2,8,HDD,128,Chrome OS,family,674
-2.12,2,8,SSD,256,Chrome OS,family,720
-2.67,6,8,SSD,512,MacOS,business,1103
-1.9,4,8,SSD,256,Linux,business,798
-3.25,8,64,Hybrid,1000,Linux,workstation,2065
-2.75,8,64,SSD,512,Linux,workstation,1771
-3.52,8,32,SSD,512,Linux,gaming,1528
-3.27,8,32,SSD,1000,Windows,workstation,1747
-1.8,2,4,HDD,128,Linux,family,584
-2.98,6,16,SSD,512,Windows,business,1214
-2.46,4,4,SSD,128,Linux,family,750
-2.14,2,8,HDD,256,Linux,family,722
-3.43,6,32,Hybrid,1000,Windows,gaming,1663
-2.81,8,16,SSD,512,Windows,gaming,1297
-2.79,4,8,SSD,256,MacOS,business,887
-2.47,6,8,HDD,512,Linux,business,1083
-3.41,6,32,Hybrid,1000,Linux,gaming,1661
-3.7,8,32,Hybrid,1000,Linux,gaming,1790
-2.85,8,64,Hybrid,1000,Windows,workstation,2025
-2.7,8,32,SSD,1000,Windows,workstation,1690
-3.25,8,32,Hybrid,512,Linux,workstation,1501
-2.83,8,32,SSD,512,Linux,workstation,1459
-2.08,2,8,SSD,128,Chrome OS,family,652
-3.11,6,16,Hybrid,1000,Windows,gaming,1471
-3.87,8,16,SSD,512,Linux,gaming,1403
-1.84,4,8,HDD,512,Windows,business,920
-2.82,8,64,Hybrid,1000,Linux,workstation,2022
-3.03,8,32,Hybrid,512,Windows,workstation,1479
-2.0,2,4,SSD,128,Chrome OS,family,604
-2.66,4,8,HDD,512,Windows,business,1002
-2.28,2,8,SSD,256,Windows,family,736
-2.23,2,8,HDD,256,Windows,family,731
-1.82,4,8,HDD,256,Windows,business,790
-2.44,2,8,HDD,256,Linux,family,752
-2.53,8,32,Hybrid,1000,Linux,gaming,1673
-3.02,6,16,Hybrid,512,Linux,gaming,1218
-1.9,4,8,HDD,256,Linux,business,798
-1.91,2,4,HDD,128,Linux,family,595
-3.52,6,16,Hybrid,1000,Linux,gaming,1512
-2.84,8,64,SSD,1000,Linux,workstation,2024
-2.8,8,32,Hybrid,1000,Windows,gaming,1700
-3.0,6,32,Hybrid,1000,Linux,gaming,1620
-3.98,8,32,Hybrid,1000,Windows,gaming,1818
-2.24,4,4,SSD,128,Linux,family,728
-2.22,2,8,HDD,128,Windows,family,666
-3.35,6,32,Hybrid,1000,Windows,gaming,1655
-2.05,4,16,HDD,512,Linux,business,1021
-2.45,4,8,SSD,128,Windows,family,789
-3.61,8,32,Hybrid,512,Linux,gaming,1537
-3.74,6,16,SSD,1000,Windows,gaming,1534
-3.45,8,32,SSD,1000,Linux,gaming,1765
-2.15,4,8,HDD,256,Windows,family,710
-2.68,6,16,SSD,512,MacOS,business,1140
-3.1,8,64,Hybrid,1000,Windows,workstation,2050
-1.85,2,4,HDD,128,Chrome OS,family,620
-3.5,8,32,SSD,512,Linux,gaming,1530
-2.9,6,16,Hybrid,512,Linux,business,1230
-2.2,4,8,SSD,256,Windows,family,745
-3.75,8,64,Hybrid,1000,Linux,workstation,2105
-2.4,4,8,HDD,256,Linux,family,700
-2.95,8,32,SSD,512,Windows,gaming,1480
-1.9,2,8,HDD,128,Linux,family,635
-3.3,6,16,SSD,512,Windows,business,1200
-2.75,8,32,Hybrid,512,Linux,gaming,1540
-2.6,4,8,SSD,256,Windows,family,770
-3.4,8,64,Hybrid,1000,Linux,workstation,2035
-2.05,2,4,HDD,128,Chrome OS,family,615
-3.6,8,32,SSD,1000,Linux,gaming,1720
-2.5,4,8,HDD,256,Linux,family,710
-3.25,6,32,Hybrid,512,Windows,gaming,1600
-2.35,4,16,SSD,256,Linux,business,890
-3.55,8,64,SSD,1000,Linux,workstation,2075
-2.0,2,8,HDD,128,Windows,family,640
-3.8,8,32,Hybrid,1000,Linux,gaming,1800
-2.7,6,16,SSD,512,Windows,business,1195
-2.3,4,8,SSD,256,Linux,family,735
-3.15,8,32,SSD,512,Windows,gaming,1505
-1.95,2,4,HDD,128,Chrome OS,family,610
-2.85,8,32,Hybrid,512,Linux,workstation,1550
-2.45,4,8,SSD,256,Windows,family,765
-3.7,8,64,Hybrid,1000,Windows,workstation,2120
-2.55,6,16,HDD,512,Linux,business,1010
-2.1,2,8,SSD,256,Chrome OS,family,685
-3.05,8,32,SSD,512,Linux,gaming,1485
-2.65,4,8,HDD,256,Windows,family,740
-3.9,8,64,Hybrid,1000,Linux,workstation,2150
-2.0,2,4,SSD,128,Chrome OS,family,620
-3.35,6,32,SSD,512,Windows,gaming,1630
-2.25,4,8,HDD,256,Linux,family,710
-3.55,8,32,Hybrid,1000,Linux,gaming,1725
-2.8,6,16,SSD,512,Windows,business,1180
-2.4,4,8,SSD,256,Linux,family,750
-3.6,8,64,Hybrid,1000,Linux,workstation,2095
-1.9,2,4,HDD,128,Chrome OS,family,600
-3.2,6,32,Hybrid,512,Linux,gaming,1580
-2.5,4,8,SSD,256,Windows,family,770
-3.45,8,32,SSD,1000,Linux,gaming,1750
-2.15,2,8,HDD,128,Windows,family,675
-3.0,6,16,SSD,512,MacOS,business,1150
-3.8,8,64,Hybrid,1000,Linux,workstation,2130
-2.1,4,8,HDD,256,Linux,family,700
-2.9,6,16,SSD,512,Windows,business,1215
-3.3,8,32,Hybrid,1000,Linux,gaming,1685
-2.0,2,8,HDD,128,Chrome OS,family,630
-3.7,8,64,SSD,1000,Linux,workstation,2100
-2.6,4,8,SSD,256,Windows,family,760
-3.15,6,32,Hybrid,512,Linux,gaming,1595
-2.25,4,8,HDD,256,Linux,family,725
-3.5,8,32,SSD,512,Windows,gaming,1540
-1.85,2,4,HDD,128,Chrome OS,family,605
-2.8,6,16,Hybrid,512,Linux,business,1190
-3.45,8,64,Hybrid,1000,Windows,workstation,2075
-2.1,2,8,SSD,256,Linux,family,690
-3.65,8,32,SSD,1000,Linux,gaming,1770
-2.5,4,8,HDD,256,Windows,family,745
-3.0,6,16,SSD,512,Linux,business,1175
-2.35,4,8,SSD,256,Linux,family,740
-3.55,8,64,Hybrid,1000,Linux,workstation,2085
-2.0,2,4,HDD,128,Chrome OS,family,615
-3.8,8,32,SSD,512,Windows,gaming,1785
-2.7,6,16,Hybrid,512,Linux,business,1210
-2.3,4,8,SSD,256,Linux,family,735
-3.2,8,32,SSD,512,Linux,gaming,1635
-1.9,2,8,HDD,128,Chrome OS,family,625
-2.85,8,64,Hybrid,1000,Linux,workstation,2045
-2.4,4,8,SSD,256,Windows,family,755
-3.65,8,32,Hybrid,1000,Linux,gaming,1735
-2.55,6,16,SSD,512,Windows,business,1195
-2.1,4,8,HDD,256,Linux,family,720
-3.4,8,64,Hybrid,1000,Linux,workstation,2060
-2.0,2,4,SSD,128,Chrome OS,family,610
-3.3,6,32,Hybrid,512,Windows,gaming,1605
-2.5,4,8,SSD,256,Linux,family,765
-3.7,8,32,SSD,1000,Linux,gaming,1780
-2.15,2,8,HDD,128,Windows,family,670
-3.05,6,16,SSD,512,MacOS,business,1145
-3.8,8,64,Hybrid,1000,Linux,workstation,2135
-2.2,4,8,HDD,256,Linux,family,705
-2.95,6,16,SSD,512,Windows,business,1225
-3.35,8,32,Hybrid,1000,Linux,gaming,1700
-2.05,2,8,HDD,128,Chrome OS,family,635
-3.75,8,64,SSD,1000,Linux,workstation,2125
-2.65,4,8,SSD,256,Windows,family,780
-3.1,6,32,Hybrid,512,Linux,gaming,1605
-2.3,4,8,HDD,256,Linux,family,735
-3.6,8,32,SSD,512,Windows,gaming,1550
-1.9,2,4,HDD,128,Chrome OS,family,615
-2.85,6,16,Hybrid,512,Linux,business,1200
-3.5,8,64,Hybrid,1000,Windows,workstation,2090
-2.15,2,8,SSD,256,Linux,family,690
-3.7,8,32,SSD,1000,Linux,gaming,1790
-2.55,4,8,HDD,256,Windows,family,755
-3.05,6,16,SSD,512,Linux,business,1185
-2.4,4,8,SSD,256,Linux,family,740
-3.6,8,64,Hybrid,1000,Linux,workstation,2100
-2.05,2,4,HDD,128,Chrome OS,family,620
-3.85,8,32,SSD,512,Windows,gaming,1800
-2.75,6,16,Hybrid,512,Linux,business,1220
-2.35,4,8,SSD,256,Linux,family,735
-3.25,8,32,SSD,512,Linux,gaming,1650
-1.95,2,8,HDD,128,Chrome OS,family,630
-2.9,8,64,Hybrid,1000,Linux,workstation,2065
-2.45,4,8,SSD,256,Windows,family,765
-3.7,8,32,Hybrid,1000,Linux,gaming,1740
-2.6,6,16,SSD,512,Windows,business,1205
-2.15,4,8,HDD,256,Linux,family,715
-3.45,8,64,Hybrid,1000,Linux,workstation,2085
-2.05,2,4,SSD,128,Chrome OS,family,615
-3.3,6,32,Hybrid,512,Linux,gaming,1615
-2.55,4,8,SSD,256,Windows,family,775
-3.55,8,32,SSD,1000,Linux,gaming,1760
-2.2,2,8,HDD,128,Windows,family,675
-3.0,6,16,SSD,512,MacOS,business,1160
-3.9,8,64,Hybrid,1000,Linux,workstation,2150
-2.25,4,8,HDD,256,Linux,family,720
-3.1,6,16,SSD,512,Windows,business,1230
-3.4,8,32,Hybrid,1000,Linux,gaming,1715
-2.0,2,8,HDD,128,Chrome OS,family,640
-3.8,8,64,SSD,1000,Linux,workstation,2135
-2.5,4,8,SSD,256,Windows,family,770
-3.2,6,32,Hybrid,512,Linux,gaming,1625
-2.3,4,8,HDD,256,Linux,family,735
-3.55,8,32,SSD,512,Windows,gaming,1560
-1.85,2,4,HDD,128,Chrome OS,family,610
-2.9,6,16,Hybrid,512,Linux,business,1205
-3.6,8,64,Hybrid,1000,Windows,workstation,2105
-2.1,2,8,SSD,256,Linux,family,695
-3.7,8,32,SSD,1000,Linux,gaming,1785
-2.6,4,8,HDD,256,Windows,family,760
-3.0,6,16,SSD,512,Linux,business,1180
-2.4,4,8,SSD,256,Linux,family,740
-3.65,8,64,Hybrid,1000,Linux,workstation,2090
-2.05,2,4,HDD,128,Chrome OS,family,615
-3.85,8,32,SSD,512,Windows,gaming,1795
-2.75,6,16,Hybrid,512,Linux,business,1215
-2.35,4,8,SSD,256,Linux,family,735
-3.3,8,32,SSD,512,Linux,gaming,1645
-1.9,2,8,HDD,128,Chrome OS,family,625
-2.9,8,64,Hybrid,1000,Linux,workstation,2070
-2.5,4,8,SSD,256,Windows,family,765
-3.75,8,32,Hybrid,1000,Linux,gaming,1750
-2.6,6,16,SSD,512,Windows,business,1210
-2.15,4,8,HDD,256,Linux,family,720
-3.45,8,64,Hybrid,1000,Linux,workstation,2095
-2.0,2,4,SSD,128,Chrome OS,family,620
-3.25,6,32,Hybrid,512,Linux,gaming,1610
-2.55,4,8,SSD,256,Windows,family,780
-3.6,8,32,SSD,1000,Linux,gaming,1775
-2.2,2,8,HDD,128,Windows,family,680
-3.05,6,16,SSD,512,MacOS,business,1170
-3.85,8,64,Hybrid,1000,Linux,workstation,2140
-2.3,4,8,HDD,256,Linux,family,715
-3.15,6,16,SSD,512,Windows,business,1240
-3.45,8,32,Hybrid,1000,Linux,gaming,1725
-2.05,2,8,HDD,128,Chrome OS,family,645
-3.8,8,64,SSD,1000,Linux,workstation,2145
-2.55,4,8,SSD,256,Windows,family,775
-3.25,6,32,Hybrid,512,Linux,gaming,1635
-2.35,4,8,HDD,256,Linux,family,740
-3.6,8,32,SSD,512,Windows,gaming,1570
-1.9,2,4,HDD,128,Chrome OS,family,620
-2.85,6,16,Hybrid,512,Linux,business,1205
-3.5,8,64,Hybrid,1000,Windows,workstation,2100
-2.2,2,8,SSD,256,Linux,family,700
-3.7,8,32,SSD,1000,Linux,gaming,1795
-2.65,4,8,HDD,256,Windows,family,765
-3.1,6,16,SSD,512,Linux,business,1190
-2.4,4,8,SSD,256,Linux,family,745
-3.65,8,64,Hybrid,1000,Linux,workstation,2105
-2.1,2,4,HDD,128,Chrome OS,family,620
-3.9,8,32,SSD,512,Windows,gaming,1810
-2.8,6,16,Hybrid,512,Linux,business,1225
-2.3,4,8,SSD,256,Linux,family,740
-3.35,8,32,SSD,512,Linux,gaming,1660
-1.95,2,8,HDD,128,Chrome OS,family,635
-2.95,8,64,Hybrid,1000,Linux,workstation,2075
-2.5,4,8,SSD,256,Windows,family,770
-3.8,8,32,Hybrid,1000,Linux,gaming,1755
-2.7,6,16,SSD,512,Windows,business,1215
-2.15,4,8,HDD,256,Linux,family,725
-3.5,8,64,Hybrid,1000,Linux,workstation,2090
-2.05,2,4,SSD,128,Chrome OS,family,620
-3.3,6,32,Hybrid,512,Linux,gaming,1615
-2.6,4,8,SSD,256,Windows,family,780
-3.6,8,32,SSD,1000,Linux,gaming,1775
-2.25,2,8,HDD,128,Windows,family,680
-3.0,6,16,SSD,512,MacOS,business,1170
-3.9,8,64,Hybrid,1000,Linux,workstation,2150
-2.3,4,8,HDD,256,Linux,family,715
-3.2,6,16,SSD,512,Windows,business,1245
-3.5,8,32,Hybrid,1000,Linux,gaming,1730
-2.1,2,8,HDD,128,Chrome OS,family,650
-3.85,8,64,SSD,1000,Linux,workstation,2155
-2.6,4,8,SSD,256,Windows,family,780
-3.3,6,32,Hybrid,512,Linux,gaming,1640
-2.4,4,8,HDD,256,Linux,family,740
-3.65,8,32,SSD,512,Windows,gaming,1580
-1.95,2,4,HDD,128,Chrome OS,family,625
-2.9,6,16,Hybrid,512,Linux,business,1210
-3.7,8,64,Hybrid,1000,Windows,workstation,2115
-2.15,2,8,SSD,256,Linux,family,700
-3.75,8,32,SSD,1000,Linux,gaming,1800
-2.7,4,8,HDD,256,Windows,family,765
-3.05,6,16,SSD,512,Linux,business,1185
-2.45,4,8,SSD,256,Linux,family,745
-3.7,8,64,Hybrid,1000,Linux,workstation,2110
-2.1,2,4,HDD,128,Chrome OS,family,620
-3.95,8,32,SSD,512,Windows,gaming,1820
-2.85,6,16,Hybrid,512,Linux,business,1230
-2.35,4,8,SSD,256,Linux,family,740
-3.4,8,32,SSD,512,Linux,gaming,1665
-2.0,2,8,HDD,128,Chrome OS,family,635
-3.0,8,64,Hybrid,1000,Linux,workstation,2080
-2.55,4,8,SSD,256,Windows,family,775
-3.85,8,32,Hybrid,1000,Linux,gaming,1760
-2.8,6,16,SSD,512,Windows,business,1220
-2.2,4,8,HDD,256,Linux,family,730
-3.55,8,64,Hybrid,1000,Linux,workstation,2100
-2.05,2,4,SSD,128,Chrome OS,family,620
-3.35,6,32,Hybrid,512,Linux,gaming,1620
-2.65,4,8,SSD,256,Windows,family,780
-3.7,8,32,SSD,1000,Linux,gaming,1780
-2.3,2,8,HDD,128,Windows,family,680
-3.1,6,16,SSD,512,MacOS,business,1175
-3.95,8,64,Hybrid,1000,Linux,workstation,2155
-2.35,4,8,HDD,256,Linux,family,720
-3.25,6,16,SSD,512,Windows,business,1250
-3.55,8,32,Hybrid,1000,Linux,gaming,1740
-2.1,2,8,HDD,128,Chrome OS,family,655
-3.9,8,64,SSD,1000,Linux,workstation,2160
-2.65,4,8,SSD,256,Windows,family,785
-3.35,6,32,Hybrid,512,Linux,gaming,1645
-2.45,4,8,HDD,256,Linux,family,745
-3.7,8,32,SSD,512,Windows,gaming,1585
-1.95,2,4,HDD,128,Chrome OS,family,625
-2.95,6,16,Hybrid,512,Linux,business,1215
-3.55,8,64,Hybrid,1000,Windows,workstation,2105
-2.2,2,8,SSD,256,Linux,family,705
-3.8,8,32,SSD,1000,Linux,gaming,1805
-2.7,4,8,HDD,256,Windows,family,770
-3.15,6,16,SSD,512,Linux,business,1195
-2.45,4,8,SSD,256,Linux,family,750
-3.7,8,64,Hybrid,1000,Linux,workstation,2115
-2.1,2,4,HDD,128,Chrome OS,family,620
-4.0,8,32,SSD,512,Windows,gaming,1830
-2.9,6,16,Hybrid,512,Linux,business,1235
-2.4,4,8,SSD,256,Linux,family,740
-3.45,8,32,SSD,512,Linux,gaming,1670
-2.05,2,8,HDD,128,Chrome OS,family,640
-3.05,8,64,Hybrid,1000,Linux,workstation,2085
-2.6,4,8,SSD,256,Windows,family,780
-3.9,8,32,Hybrid,1000,Linux,gaming,1765
-2.85,6,16,SSD,512,Windows,business,1225
-2.25,4,8,HDD,256,Linux,family,735
-3.6,8,64,Hybrid,1000,Linux,workstation,2105
-2.05,2,4,SSD,128,Chrome OS,family,620
-3.4,6,32,Hybrid,512,Linux,gaming,1625
-2.7,4,8,SSD,256,Windows,family,785
-3.7,8,32,SSD,1000,Linux,gaming,1785
-2.3,2,8,HDD,128,Windows,family,685
-3.15,6,16,SSD,512,MacOS,business,1180
-3.95,8,64,Hybrid,1000,Linux,workstation,2160
-2.4,4,8,HDD,256,Linux,family,725
-3.3,6,16,SSD,512,Windows,business,1255
-3.6,8,32,Hybrid,1000,Linux,gaming,1745
-2.15,2,8,HDD,128,Chrome OS,family,660
-3.95,8,64,SSD,1000,Linux,workstation,2165
-2.7,4,8,SSD,256,Windows,family,790
-3.4,6,32,Hybrid,512,Linux,gaming,1650
-2.5,4,8,HDD,256,Linux,family,750
-3.75,8,32,SSD,512,Windows,gaming,1590
-2.0,2,4,HDD,128,Chrome OS,family,630
-3.0,6,16,Hybrid,512,Linux,business,1220
-3.6,8,64,Hybrid,1000,Windows,workstation,2110
-2.25,2,8,SSD,256,Linux,family,710
-3.85,8,32,SSD,1000,Linux,gaming,1810
-2.75,4,8,HDD,256,Windows,family,775
-3.2,6,16,SSD,512,Linux,business,1200
-2.5,4,8,SSD,256,Linux,family,755
-3.75,8,64,Hybrid,1000,Linux,workstation,2120
-2.15,2,4,HDD,128,Chrome OS,family,625
-4.05,8,32,SSD,512,Windows,gaming,1835
-2.9,6,16,Hybrid,512,Linux,business,1240
-2.45,4,8,SSD,256,Linux,family,745
-3.5,8,32,SSD,512,Linux,gaming,1675
-2.1,2,8,HDD,128,Chrome OS,family,645
-3.1,8,64,Hybrid,1000,Linux,workstation,2085
-2.65,4,8,SSD,256,Windows,family,785
-3.95,8,32,Hybrid,1000,Linux,gaming,1770
-2.9,6,16,SSD,512,Windows,business,1230
-2.3,4,8,HDD,256,Linux,family,740
-3.65,8,64,Hybrid,1000,Linux,workstation,2110
-2.1,2,4,SSD,128,Chrome OS,family,625
-3.45,6,32,Hybrid,512,Linux,gaming,1630
-2.75,4,8,SSD,256,Windows,family,785
-3.8,8,32,SSD,1000,Linux,gaming,1790
-2.35,2,8,HDD,128,Windows,family,685
-3.2,6,16,SSD,512,MacOS,business,1185
-4.0,8,64,Hybrid,1000,Linux,workstation,2165
-2.4,4,8,HDD,256,Linux,family,730
-3.35,6,16,SSD,512,Windows,business,1260
-3.65,8,32,Hybrid,1000,Linux,gaming,1750
-2.2,2,8,HDD,128,Chrome OS,family,665
-4.0,8,64,SSD,1000,Linux,workstation,2170
-2.75,4,8,SSD,256,Windows,family,795
-3.45,6,32,Hybrid,512,Linux,gaming,1655
-2.55,4,8,HDD,256,Linux,family,755
-3.8,8,32,SSD,512,Windows,gaming,1595
-2.05,2,4,HDD,128,Chrome OS,family,630
-3.05,6,16,Hybrid,512,Linux,business,1225
-3.65,8,64,Hybrid,1000,Windows,workstation,2115
-2.3,2,8,SSD,256,Linux,family,715
-3.9,8,32,SSD,1000,Linux,gaming,1815
-2.8,4,8,HDD,256,Windows,family,780
-3.25,6,16,SSD,512,Linux,business,1205
-2.55,4,8,SSD,256,Linux,family,760
-3.8,8,64,Hybrid,1000,Linux,workstation,2125
-2.2,2,4,HDD,128,Chrome OS,family,630
-4.1,8,32,SSD,512,Windows,gaming,1840
-2.95,6,16,Hybrid,512,Linux,business,1245
-2.5,4,8,SSD,256,Linux,family,750
-3.55,8,32,SSD,512,Linux,gaming,1680
-2.15,2,8,HDD,128,Chrome OS,family,645
-3.1,8,64,Hybrid,1000,Linux,workstation,2090
-2.7,4,8,SSD,256,Windows,family,790
-4.0,8,32,Hybrid,1000,Linux,gaming,1775
-2.95,6,16,SSD,512,Windows,business,1235
-2.4,4,8,HDD,256,Linux,family,745
-3.7,8,64,Hybrid,1000,Linux,workstation,2115
-2.15,2,4,SSD,128,Chrome OS,family,625
-3.5,6,32,Hybrid,512,Linux,gaming,1635
-2.8,4,8,SSD,256,Windows,family,790
-3.85,8,32,SSD,1000,Linux,gaming,1795
-2.4,2,8,HDD,128,Windows,family,690
-3.25,6,16,SSD,512,MacOS,business,1190
-4.05,8,64,Hybrid,1000,Linux,workstation,2170
-2.45,4,8,HDD,256,Linux,family,735
-3.4,6,16,SSD,512,Windows,business,1265
-3.7,8,32,Hybrid,1000,Linux,gaming,1755
-2.25,2,8,HDD,128,Chrome OS,family,670
-4.05,8,64,SSD,1000,Linux,workstation,2175
-2.8,4,8,SSD,256,Windows,family,800
-3.5,6,32,Hybrid,512,Linux,gaming,1660
-2.6,4,8,HDD,256,Linux,family,760
-3.85,8,32,SSD,512,Windows,gaming,1600
-2.1,2,4,HDD,128,Chrome OS,family,635
-3.1,6,16,Hybrid,512,Linux,business,1230
-3.7,8,64,Hybrid,1000,Windows,workstation,2120
-2.35,2,8,SSD,256,Linux,family,720
-3.95,8,32,SSD,1000,Linux,gaming,1820
-2.85,4,8,HDD,256,Windows,family,785
-3.3,6,16,SSD,512,Linux,business,1210
-2.6,4,8,SSD,256,Linux,family,765
-3.85,8,64,Hybrid,1000,Linux,workstation,2130
-2.25,2,4,HDD,128,Chrome OS,family,635
-4.15,8,32,SSD,512,Windows,gaming,1845
-3.0,6,16,Hybrid,512,Linux,business,1250
-2.55,4,8,SSD,256,Linux,family,755
-3.6,8,32,SSD,512,Linux,gaming,1685
-2.2,2,8,HDD,128,Chrome OS,family,650
-3.15,8,64,Hybrid,1000,Linux,workstation,2095
-2.75,4,8,SSD,256,Windows,family,795
-4.05,8,32,Hybrid,1000,Linux,gaming,1780
-3.0,6,16,SSD,512,Windows,business,1240
-2.45,4,8,HDD,256,Linux,family,750
-3.75,8,64,Hybrid,1000,Linux,workstation,2120
-2.2,2,4,SSD,128,Chrome OS,family,630
-3.55,6,32,Hybrid,512,Linux,gaming,1635
-2.85,4,8,SSD,256,Windows,family,790
-3.9,8,32,SSD,1000,Linux,gaming,1800
-2.45,2,8,HDD,128,Windows,family,695
-3.3,6,16,SSD,512,MacOS,business,1195
-4.1,8,64,Hybrid,1000,Linux,workstation,2175
-2.5,4,8,HDD,256,Linux,family,740
-3.45,6,16,SSD,512,Windows,business,1270
-3.75,8,32,Hybrid,1000,Linux,gaming,1760
-2.3,2,8,HDD,128,Chrome OS,family,675
-4.1,8,64,SSD,1000,Linux,workstation,2180
-2.85,4,8,SSD,256,Windows,family,805
-3.55,6,32,Hybrid,512,Linux,gaming,1665
-2.65,4,8,HDD,256,Linux,family,765
-3.9,8,32,SSD,512,Windows,gaming,1605
-2.15,2,4,HDD,128,Chrome OS,family,640
-3.15,6,16,Hybrid,512,Linux,business,1235
-3.75,8,64,Hybrid,1000,Windows,workstation,2125
-2.4,2,8,SSD,256,Linux,family,725
-4.0,8,32,SSD,1000,Linux,gaming,1825
-2.9,4,8,HDD,256,Windows,family,790
-3.35,6,16,SSD,512,Linux,business,1215
-2.65,4,8,SSD,256,Linux,family,770
-3.9,8,64,Hybrid,1000,Linux,workstation,2135
-2.3,2,4,HDD,128,Chrome OS,family,640
-4.2,8,32,SSD,512,Windows,gaming,1850
-3.05,6,16,Hybrid,512,Linux,business,1255
-2.6,4,8,SSD,256,Linux,family,760
-3.65,8,32,SSD,512,Linux,gaming,1690
-2.25,2,8,HDD,128,Chrome OS,family,655
-3.2,8,64,Hybrid,1000,Linux,workstation,2100
-2.8,4,8,SSD,256,Windows,family,800
-4.1,8,32,Hybrid,1000,Linux,gaming,1785
-3.05,6,16,SSD,512,Windows,business,1245
-2.5,4,8,HDD,256,Linux,family,755
-3.8,8,64,Hybrid,1000,Linux,workstation,2125
-2.25,2,4,SSD,128,Chrome OS,family,635
-3.6,6,32,Hybrid,512,Linux,gaming,1640
-2.9,4,8,SSD,256,Windows,family,795
-3.95,8,32,SSD,1000,Linux,gaming,1805
-2.5,2,8,HDD,128,Windows,family,700
-3.35,6,16,SSD,512,MacOS,business,1200
-4.15,8,64,Hybrid,1000,Linux,workstation,2180
-2.55,4,8,HDD,256,Linux,family,745
-3.5,6,16,SSD,512,Windows,business,1275
-3.8,8,32,Hybrid,1000,Linux,gaming,1765
-2.35,2,8,HDD,128,Chrome OS,family,680
-4.15,8,64,SSD,1000,Linux,workstation,2185
-2.9,4,8,SSD,256,Windows,family,810
-3.6,6,32,Hybrid,512,Linux,gaming,1670
-2.7,4,8,HDD,256,Linux,family,770
-3.95,8,32,SSD,512,Windows,gaming,1610
-2.2,2,4,HDD,128,Chrome OS,family,645
-3.2,6,16,Hybrid,512,Linux,business,1240
-3.8,8,64,Hybrid,1000,Windows,workstation,2130
-2.45,2,8,SSD,256,Linux,family,730
-4.05,8,32,SSD,1000,Linux,gaming,1830
-2.95,4,8,HDD,256,Windows,family,795
-3.4,6,16,SSD,512,Linux,business,1220
-2.7,4,8,SSD,256,Linux,family,775
-3.95,8,64,Hybrid,1000,Linux,workstation,2140
-2.35,2,4,HDD,128,Chrome OS,family,645
-4.25,8,32,SSD,512,Windows,gaming,1855
-3.1,6,16,Hybrid,512,Linux,business,1260
-2.65,4,8,SSD,256,Linux,family,765
-3.7,8,32,SSD,512,Linux,gaming,1695
-2.3,2,8,HDD,128,Chrome OS,family,660
-3.25,8,64,Hybrid,1000,Linux,workstation,2105
-2.85,4,8,SSD,256,Windows,family,805
-4.15,8,32,Hybrid,1000,Linux,gaming,1790
-3.1,6,16,SSD,512,Windows,business,1250
-2.55,4,8,HDD,256,Linux,family,760
+2.3,2,8,HDD,128,Chrome OS,Family,674
+2.12,2,8,SSD,256,Chrome OS,Family,720
+2.67,6,8,SSD,512,MacOS,Business,1103
+1.9,4,8,SSD,256,Linux,Business,798
+3.25,8,64,Hybrid,1000,Linux,Workstation,2065
+2.75,8,64,SSD,512,Linux,Workstation,1771
+3.52,8,32,SSD,512,Linux,Gaming,1528
+3.27,8,32,SSD,1000,Windows,Workstation,1747
+1.8,2,4,HDD,128,Linux,Family,584
+2.98,6,16,SSD,512,Windows,Business,1214
+2.46,4,4,SSD,128,Linux,Family,750
+2.14,2,8,HDD,256,Linux,Family,722
+3.43,6,32,Hybrid,1000,Windows,Gaming,1663
+2.81,8,16,SSD,512,Windows,Gaming,1297
+2.79,4,8,SSD,256,MacOS,Business,887
+2.47,6,8,HDD,512,Linux,Business,1083
+3.41,6,32,Hybrid,1000,Linux,Gaming,1661
+3.7,8,32,Hybrid,1000,Linux,Gaming,1790
+2.85,8,64,Hybrid,1000,Windows,Workstation,2025
+2.7,8,32,SSD,1000,Windows,Workstation,1690
+3.25,8,32,Hybrid,512,Linux,Workstation,1501
+2.83,8,32,SSD,512,Linux,Workstation,1459
+2.08,2,8,SSD,128,Chrome OS,Family,652
+3.11,6,16,Hybrid,1000,Windows,Gaming,1471
+3.87,8,16,SSD,512,Linux,Gaming,1403
+1.84,4,8,HDD,512,Windows,Business,920
+2.82,8,64,Hybrid,1000,Linux,Workstation,2022
+3.03,8,32,Hybrid,512,Windows,Workstation,1479
+2.0,2,4,SSD,128,Chrome OS,Family,604
+2.66,4,8,HDD,512,Windows,Business,1002
+2.28,2,8,SSD,256,Windows,Family,736
+2.23,2,8,HDD,256,Windows,Family,731
+1.82,4,8,HDD,256,Windows,Business,790
+2.44,2,8,HDD,256,Linux,Family,752
+2.53,8,32,Hybrid,1000,Linux,Gaming,1673
+3.02,6,16,Hybrid,512,Linux,Gaming,1218
+1.9,4,8,HDD,256,Linux,Business,798
+1.91,2,4,HDD,128,Linux,Family,595
+3.52,6,16,Hybrid,1000,Linux,Gaming,1512
+2.84,8,64,SSD,1000,Linux,Workstation,2024
+2.8,8,32,Hybrid,1000,Windows,Gaming,1700
+3.0,6,32,Hybrid,1000,Linux,Gaming,1620
+3.98,8,32,Hybrid,1000,Windows,Gaming,1818
+2.24,4,4,SSD,128,Linux,Family,728
+2.22,2,8,HDD,128,Windows,Family,666
+3.35,6,32,Hybrid,1000,Windows,Gaming,1655
+2.05,4,16,HDD,512,Linux,Business,1021
+2.45,4,8,SSD,128,Windows,Family,789
+3.61,8,32,Hybrid,512,Linux,Gaming,1537
+3.74,6,16,SSD,1000,Windows,Gaming,1534
+3.45,8,32,SSD,1000,Linux,Gaming,1765
+2.15,4,8,HDD,256,Windows,Family,710
+2.68,6,16,SSD,512,MacOS,Business,1140
+3.1,8,64,Hybrid,1000,Windows,Workstation,2050
+1.85,2,4,HDD,128,Chrome OS,Family,620
+3.5,8,32,SSD,512,Linux,Gaming,1530
+2.9,6,16,Hybrid,512,Linux,Business,1230
+2.2,4,8,SSD,256,Windows,Family,745
+3.75,8,64,Hybrid,1000,Linux,Workstation,2105
+2.4,4,8,HDD,256,Linux,Family,700
+2.95,8,32,SSD,512,Windows,Gaming,1480
+1.9,2,8,HDD,128,Linux,Family,635
+3.3,6,16,SSD,512,Windows,Business,1200
+2.75,8,32,Hybrid,512,Linux,Gaming,1540
+2.6,4,8,SSD,256,Windows,Family,770
+3.4,8,64,Hybrid,1000,Linux,Workstation,2035
+2.05,2,4,HDD,128,Chrome OS,Family,615
+3.6,8,32,SSD,1000,Linux,Gaming,1720
+2.5,4,8,HDD,256,Linux,Family,710
+3.25,6,32,Hybrid,512,Windows,Gaming,1600
+2.35,4,16,SSD,256,Linux,Business,890
+3.55,8,64,SSD,1000,Linux,Workstation,2075
+2.0,2,8,HDD,128,Windows,Family,640
+3.8,8,32,Hybrid,1000,Linux,Gaming,1800
+2.7,6,16,SSD,512,Windows,Business,1195
+2.3,4,8,SSD,256,Linux,Family,735
+3.15,8,32,SSD,512,Windows,Gaming,1505
+1.95,2,4,HDD,128,Chrome OS,Family,610
+2.85,8,32,Hybrid,512,Linux,Workstation,1550
+2.45,4,8,SSD,256,Windows,Family,765
+3.7,8,64,Hybrid,1000,Windows,Workstation,2120
+2.55,6,16,HDD,512,Linux,Business,1010
+2.1,2,8,SSD,256,Chrome OS,Family,685
+3.05,8,32,SSD,512,Linux,Gaming,1485
+2.65,4,8,HDD,256,Windows,Family,740
+3.9,8,64,Hybrid,1000,Linux,Workstation,2150
+2.0,2,4,SSD,128,Chrome OS,Family,620
+3.35,6,32,SSD,512,Windows,Gaming,1630
+2.25,4,8,HDD,256,Linux,Family,710
+3.55,8,32,Hybrid,1000,Linux,Gaming,1725
+2.8,6,16,SSD,512,Windows,Business,1180
+2.4,4,8,SSD,256,Linux,Family,750
+3.6,8,64,Hybrid,1000,Linux,Workstation,2095
+1.9,2,4,HDD,128,Chrome OS,Family,600
+3.2,6,32,Hybrid,512,Linux,Gaming,1580
+2.5,4,8,SSD,256,Windows,Family,770
+3.45,8,32,SSD,1000,Linux,Gaming,1750
+2.15,2,8,HDD,128,Windows,Family,675
+3.0,6,16,SSD,512,MacOS,Business,1150
+3.8,8,64,Hybrid,1000,Linux,Workstation,2130
+2.1,4,8,HDD,256,Linux,Family,700
+2.9,6,16,SSD,512,Windows,Business,1215
+3.3,8,32,Hybrid,1000,Linux,Gaming,1685
+2.0,2,8,HDD,128,Chrome OS,Family,630
+3.7,8,64,SSD,1000,Linux,Workstation,2100
+2.6,4,8,SSD,256,Windows,Family,760
+3.15,6,32,Hybrid,512,Linux,Gaming,1595
+2.25,4,8,HDD,256,Linux,Family,725
+3.5,8,32,SSD,512,Windows,Gaming,1540
+1.85,2,4,HDD,128,Chrome OS,Family,605
+2.8,6,16,Hybrid,512,Linux,Business,1190
+3.45,8,64,Hybrid,1000,Windows,Workstation,2075
+2.1,2,8,SSD,256,Linux,Family,690
+3.65,8,32,SSD,1000,Linux,Gaming,1770
+2.5,4,8,HDD,256,Windows,Family,745
+3.0,6,16,SSD,512,Linux,Business,1175
+2.35,4,8,SSD,256,Linux,Family,740
+3.55,8,64,Hybrid,1000,Linux,Workstation,2085
+2.0,2,4,HDD,128,Chrome OS,Family,615
+3.8,8,32,SSD,512,Windows,Gaming,1785
+2.7,6,16,Hybrid,512,Linux,Business,1210
+2.3,4,8,SSD,256,Linux,Family,735
+3.2,8,32,SSD,512,Linux,Gaming,1635
+1.9,2,8,HDD,128,Chrome OS,Family,625
+2.85,8,64,Hybrid,1000,Linux,Workstation,2045
+2.4,4,8,SSD,256,Windows,Family,755
+3.65,8,32,Hybrid,1000,Linux,Gaming,1735
+2.55,6,16,SSD,512,Windows,Business,1195
+2.1,4,8,HDD,256,Linux,Family,720
+3.4,8,64,Hybrid,1000,Linux,Workstation,2060
+2.0,2,4,SSD,128,Chrome OS,Family,610
+3.3,6,32,Hybrid,512,Windows,Gaming,1605
+2.5,4,8,SSD,256,Linux,Family,765
+3.7,8,32,SSD,1000,Linux,Gaming,1780
+2.15,2,8,HDD,128,Windows,Family,670
+3.05,6,16,SSD,512,MacOS,Business,1145
+3.8,8,64,Hybrid,1000,Linux,Workstation,2135
+2.2,4,8,HDD,256,Linux,Family,705
+2.95,6,16,SSD,512,Windows,Business,1225
+3.35,8,32,Hybrid,1000,Linux,Gaming,1700
+2.05,2,8,HDD,128,Chrome OS,Family,635
+3.75,8,64,SSD,1000,Linux,Workstation,2125
+2.65,4,8,SSD,256,Windows,Family,780
+3.1,6,32,Hybrid,512,Linux,Gaming,1605
+2.3,4,8,HDD,256,Linux,Family,735
+3.6,8,32,SSD,512,Windows,Gaming,1550
+1.9,2,4,HDD,128,Chrome OS,Family,615
+2.85,6,16,Hybrid,512,Linux,Business,1200
+3.5,8,64,Hybrid,1000,Windows,Workstation,2090
+2.15,2,8,SSD,256,Linux,Family,690
+3.7,8,32,SSD,1000,Linux,Gaming,1790
+2.55,4,8,HDD,256,Windows,Family,755
+3.05,6,16,SSD,512,Linux,Business,1185
+2.4,4,8,SSD,256,Linux,Family,740
+3.6,8,64,Hybrid,1000,Linux,Workstation,2100
+2.05,2,4,HDD,128,Chrome OS,Family,620
+3.85,8,32,SSD,512,Windows,Gaming,1800
+2.75,6,16,Hybrid,512,Linux,Business,1220
+2.35,4,8,SSD,256,Linux,Family,735
+3.25,8,32,SSD,512,Linux,Gaming,1650
+1.95,2,8,HDD,128,Chrome OS,Family,630
+2.9,8,64,Hybrid,1000,Linux,Workstation,2065
+2.45,4,8,SSD,256,Windows,Family,765
+3.7,8,32,Hybrid,1000,Linux,Gaming,1740
+2.6,6,16,SSD,512,Windows,Business,1205
+2.15,4,8,HDD,256,Linux,Family,715
+3.45,8,64,Hybrid,1000,Linux,Workstation,2085
+2.05,2,4,SSD,128,Chrome OS,Family,615
+3.3,6,32,Hybrid,512,Linux,Gaming,1615
+2.55,4,8,SSD,256,Windows,Family,775
+3.55,8,32,SSD,1000,Linux,Gaming,1760
+2.2,2,8,HDD,128,Windows,Family,675
+3.0,6,16,SSD,512,MacOS,Business,1160
+3.9,8,64,Hybrid,1000,Linux,Workstation,2150
+2.25,4,8,HDD,256,Linux,Family,720
+3.1,6,16,SSD,512,Windows,Business,1230
+3.4,8,32,Hybrid,1000,Linux,Gaming,1715
+2.0,2,8,HDD,128,Chrome OS,Family,640
+3.8,8,64,SSD,1000,Linux,Workstation,2135
+2.5,4,8,SSD,256,Windows,Family,770
+3.2,6,32,Hybrid,512,Linux,Gaming,1625
+2.3,4,8,HDD,256,Linux,Family,735
+3.55,8,32,SSD,512,Windows,Gaming,1560
+1.85,2,4,HDD,128,Chrome OS,Family,610
+2.9,6,16,Hybrid,512,Linux,Business,1205
+3.6,8,64,Hybrid,1000,Windows,Workstation,2105
+2.1,2,8,SSD,256,Linux,Family,695
+3.7,8,32,SSD,1000,Linux,Gaming,1785
+2.6,4,8,HDD,256,Windows,Family,760
+3.0,6,16,SSD,512,Linux,Business,1180
+2.4,4,8,SSD,256,Linux,Family,740
+3.65,8,64,Hybrid,1000,Linux,Workstation,2090
+2.05,2,4,HDD,128,Chrome OS,Family,615
+3.85,8,32,SSD,512,Windows,Gaming,1795
+2.75,6,16,Hybrid,512,Linux,Business,1215
+2.35,4,8,SSD,256,Linux,Family,735
+3.3,8,32,SSD,512,Linux,Gaming,1645
+1.9,2,8,HDD,128,Chrome OS,Family,625
+2.9,8,64,Hybrid,1000,Linux,Workstation,2070
+2.5,4,8,SSD,256,Windows,Family,765
+3.75,8,32,Hybrid,1000,Linux,Gaming,1750
+2.6,6,16,SSD,512,Windows,Business,1210
+2.15,4,8,HDD,256,Linux,Family,720
+3.45,8,64,Hybrid,1000,Linux,Workstation,2095
+2.0,2,4,SSD,128,Chrome OS,Family,620
+3.25,6,32,Hybrid,512,Linux,Gaming,1610
+2.55,4,8,SSD,256,Windows,Family,780
+3.6,8,32,SSD,1000,Linux,Gaming,1775
+2.2,2,8,HDD,128,Windows,Family,680
+3.05,6,16,SSD,512,MacOS,Business,1170
+3.85,8,64,Hybrid,1000,Linux,Workstation,2140
+2.3,4,8,HDD,256,Linux,Family,715
+3.15,6,16,SSD,512,Windows,Business,1240
+3.45,8,32,Hybrid,1000,Linux,Gaming,1725
+2.05,2,8,HDD,128,Chrome OS,Family,645
+3.8,8,64,SSD,1000,Linux,Workstation,2145
+2.55,4,8,SSD,256,Windows,Family,775
+3.25,6,32,Hybrid,512,Linux,Gaming,1635
+2.35,4,8,HDD,256,Linux,Family,740
+3.6,8,32,SSD,512,Windows,Gaming,1570
+1.9,2,4,HDD,128,Chrome OS,Family,620
+2.85,6,16,Hybrid,512,Linux,Business,1205
+3.5,8,64,Hybrid,1000,Windows,Workstation,2100
+2.2,2,8,SSD,256,Linux,Family,700
+3.7,8,32,SSD,1000,Linux,Gaming,1795
+2.65,4,8,HDD,256,Windows,Family,765
+3.1,6,16,SSD,512,Linux,Business,1190
+2.4,4,8,SSD,256,Linux,Family,745
+3.65,8,64,Hybrid,1000,Linux,Workstation,2105
+2.1,2,4,HDD,128,Chrome OS,Family,620
+3.9,8,32,SSD,512,Windows,Gaming,1810
+2.8,6,16,Hybrid,512,Linux,Business,1225
+2.3,4,8,SSD,256,Linux,Family,740
+3.35,8,32,SSD,512,Linux,Gaming,1660
+1.95,2,8,HDD,128,Chrome OS,Family,635
+2.95,8,64,Hybrid,1000,Linux,Workstation,2075
+2.5,4,8,SSD,256,Windows,Family,770
+3.8,8,32,Hybrid,1000,Linux,Gaming,1755
+2.7,6,16,SSD,512,Windows,Business,1215
+2.15,4,8,HDD,256,Linux,Family,725
+3.5,8,64,Hybrid,1000,Linux,Workstation,2090
+2.05,2,4,SSD,128,Chrome OS,Family,620
+3.3,6,32,Hybrid,512,Linux,Gaming,1615
+2.6,4,8,SSD,256,Windows,Family,780
+3.6,8,32,SSD,1000,Linux,Gaming,1775
+2.25,2,8,HDD,128,Windows,Family,680
+3.0,6,16,SSD,512,MacOS,Business,1170
+3.9,8,64,Hybrid,1000,Linux,Workstation,2150
+2.3,4,8,HDD,256,Linux,Family,715
+3.2,6,16,SSD,512,Windows,Business,1245
+3.5,8,32,Hybrid,1000,Linux,Gaming,1730
+2.1,2,8,HDD,128,Chrome OS,Family,650
+3.85,8,64,SSD,1000,Linux,Workstation,2155
+2.6,4,8,SSD,256,Windows,Family,780
+3.3,6,32,Hybrid,512,Linux,Gaming,1640
+2.4,4,8,HDD,256,Linux,Family,740
+3.65,8,32,SSD,512,Windows,Gaming,1580
+1.95,2,4,HDD,128,Chrome OS,Family,625
+2.9,6,16,Hybrid,512,Linux,Business,1210
+3.7,8,64,Hybrid,1000,Windows,Workstation,2115
+2.15,2,8,SSD,256,Linux,Family,700
+3.75,8,32,SSD,1000,Linux,Gaming,1800
+2.7,4,8,HDD,256,Windows,Family,765
+3.05,6,16,SSD,512,Linux,Business,1185
+2.45,4,8,SSD,256,Linux,Family,745
+3.7,8,64,Hybrid,1000,Linux,Workstation,2110
+2.1,2,4,HDD,128,Chrome OS,Family,620
+3.95,8,32,SSD,512,Windows,Gaming,1820
+2.85,6,16,Hybrid,512,Linux,Business,1230
+2.35,4,8,SSD,256,Linux,Family,740
+3.4,8,32,SSD,512,Linux,Gaming,1665
+2.0,2,8,HDD,128,Chrome OS,Family,635
+3.0,8,64,Hybrid,1000,Linux,Workstation,2080
+2.55,4,8,SSD,256,Windows,Family,775
+3.85,8,32,Hybrid,1000,Linux,Gaming,1760
+2.8,6,16,SSD,512,Windows,Business,1220
+2.2,4,8,HDD,256,Linux,Family,730
+3.55,8,64,Hybrid,1000,Linux,Workstation,2100
+2.05,2,4,SSD,128,Chrome OS,Family,620
+3.35,6,32,Hybrid,512,Linux,Gaming,1620
+2.65,4,8,SSD,256,Windows,Family,780
+3.7,8,32,SSD,1000,Linux,Gaming,1780
+2.3,2,8,HDD,128,Windows,Family,680
+3.1,6,16,SSD,512,MacOS,Business,1175
+3.95,8,64,Hybrid,1000,Linux,Workstation,2155
+2.35,4,8,HDD,256,Linux,Family,720
+3.25,6,16,SSD,512,Windows,Business,1250
+3.55,8,32,Hybrid,1000,Linux,Gaming,1740
+2.1,2,8,HDD,128,Chrome OS,Family,655
+3.9,8,64,SSD,1000,Linux,Workstation,2160
+2.65,4,8,SSD,256,Windows,Family,785
+3.35,6,32,Hybrid,512,Linux,Gaming,1645
+2.45,4,8,HDD,256,Linux,Family,745
+3.7,8,32,SSD,512,Windows,Gaming,1585
+1.95,2,4,HDD,128,Chrome OS,Family,625
+2.95,6,16,Hybrid,512,Linux,Business,1215
+3.55,8,64,Hybrid,1000,Windows,Workstation,2105
+2.2,2,8,SSD,256,Linux,Family,705
+3.8,8,32,SSD,1000,Linux,Gaming,1805
+2.7,4,8,HDD,256,Windows,Family,770
+3.15,6,16,SSD,512,Linux,Business,1195
+2.45,4,8,SSD,256,Linux,Family,750
+3.7,8,64,Hybrid,1000,Linux,Workstation,2115
+2.1,2,4,HDD,128,Chrome OS,Family,620
+4.0,8,32,SSD,512,Windows,Gaming,1830
+2.9,6,16,Hybrid,512,Linux,Business,1235
+2.4,4,8,SSD,256,Linux,Family,740
+3.45,8,32,SSD,512,Linux,Gaming,1670
+2.05,2,8,HDD,128,Chrome OS,Family,640
+3.05,8,64,Hybrid,1000,Linux,Workstation,2085
+2.6,4,8,SSD,256,Windows,Family,780
+3.9,8,32,Hybrid,1000,Linux,Gaming,1765
+2.85,6,16,SSD,512,Windows,Business,1225
+2.25,4,8,HDD,256,Linux,Family,735
+3.6,8,64,Hybrid,1000,Linux,Workstation,2105
+2.05,2,4,SSD,128,Chrome OS,Family,620
+3.4,6,32,Hybrid,512,Linux,Gaming,1625
+2.7,4,8,SSD,256,Windows,Family,785
+3.7,8,32,SSD,1000,Linux,Gaming,1785
+2.3,2,8,HDD,128,Windows,Family,685
+3.15,6,16,SSD,512,MacOS,Business,1180
+3.95,8,64,Hybrid,1000,Linux,Workstation,2160
+2.4,4,8,HDD,256,Linux,Family,725
+3.3,6,16,SSD,512,Windows,Business,1255
+3.6,8,32,Hybrid,1000,Linux,Gaming,1745
+2.15,2,8,HDD,128,Chrome OS,Family,660
+3.95,8,64,SSD,1000,Linux,Workstation,2165
+2.7,4,8,SSD,256,Windows,Family,790
+3.4,6,32,Hybrid,512,Linux,Gaming,1650
+2.5,4,8,HDD,256,Linux,Family,750
+3.75,8,32,SSD,512,Windows,Gaming,1590
+2.0,2,4,HDD,128,Chrome OS,Family,630
+3.0,6,16,Hybrid,512,Linux,Business,1220
+3.6,8,64,Hybrid,1000,Windows,Workstation,2110
+2.25,2,8,SSD,256,Linux,Family,710
+3.85,8,32,SSD,1000,Linux,Gaming,1810
+2.75,4,8,HDD,256,Windows,Family,775
+3.2,6,16,SSD,512,Linux,Business,1200
+2.5,4,8,SSD,256,Linux,Family,755
+3.75,8,64,Hybrid,1000,Linux,Workstation,2120
+2.15,2,4,HDD,128,Chrome OS,Family,625
+4.05,8,32,SSD,512,Windows,Gaming,1835
+2.9,6,16,Hybrid,512,Linux,Business,1240
+2.45,4,8,SSD,256,Linux,Family,745
+3.5,8,32,SSD,512,Linux,Gaming,1675
+2.1,2,8,HDD,128,Chrome OS,Family,645
+3.1,8,64,Hybrid,1000,Linux,Workstation,2085
+2.65,4,8,SSD,256,Windows,Family,785
+3.95,8,32,Hybrid,1000,Linux,Gaming,1770
+2.9,6,16,SSD,512,Windows,Business,1230
+2.3,4,8,HDD,256,Linux,Family,740
+3.65,8,64,Hybrid,1000,Linux,Workstation,2110
+2.1,2,4,SSD,128,Chrome OS,Family,625
+3.45,6,32,Hybrid,512,Linux,Gaming,1630
+2.75,4,8,SSD,256,Windows,Family,785
+3.8,8,32,SSD,1000,Linux,Gaming,1790
+2.35,2,8,HDD,128,Windows,Family,685
+3.2,6,16,SSD,512,MacOS,Business,1185
+4.0,8,64,Hybrid,1000,Linux,Workstation,2165
+2.4,4,8,HDD,256,Linux,Family,730
+3.35,6,16,SSD,512,Windows,Business,1260
+3.65,8,32,Hybrid,1000,Linux,Gaming,1750
+2.2,2,8,HDD,128,Chrome OS,Family,665
+4.0,8,64,SSD,1000,Linux,Workstation,2170
+2.75,4,8,SSD,256,Windows,Family,795
+3.45,6,32,Hybrid,512,Linux,Gaming,1655
+2.55,4,8,HDD,256,Linux,Family,755
+3.8,8,32,SSD,512,Windows,Gaming,1595
+2.05,2,4,HDD,128,Chrome OS,Family,630
+3.05,6,16,Hybrid,512,Linux,Business,1225
+3.65,8,64,Hybrid,1000,Windows,Workstation,2115
+2.3,2,8,SSD,256,Linux,Family,715
+3.9,8,32,SSD,1000,Linux,Gaming,1815
+2.8,4,8,HDD,256,Windows,Family,780
+3.25,6,16,SSD,512,Linux,Business,1205
+2.55,4,8,SSD,256,Linux,Family,760
+3.8,8,64,Hybrid,1000,Linux,Workstation,2125
+2.2,2,4,HDD,128,Chrome OS,Family,630
+4.1,8,32,SSD,512,Windows,Gaming,1840
+2.95,6,16,Hybrid,512,Linux,Business,1245
+2.5,4,8,SSD,256,Linux,Family,750
+3.55,8,32,SSD,512,Linux,Gaming,1680
+2.15,2,8,HDD,128,Chrome OS,Family,645
+3.1,8,64,Hybrid,1000,Linux,Workstation,2090
+2.7,4,8,SSD,256,Windows,Family,790
+4.0,8,32,Hybrid,1000,Linux,Gaming,1775
+2.95,6,16,SSD,512,Windows,Business,1235
+2.4,4,8,HDD,256,Linux,Family,745
+3.7,8,64,Hybrid,1000,Linux,Workstation,2115
+2.15,2,4,SSD,128,Chrome OS,Family,625
+3.5,6,32,Hybrid,512,Linux,Gaming,1635
+2.8,4,8,SSD,256,Windows,Family,790
+3.85,8,32,SSD,1000,Linux,Gaming,1795
+2.4,2,8,HDD,128,Windows,Family,690
+3.25,6,16,SSD,512,MacOS,Business,1190
+4.05,8,64,Hybrid,1000,Linux,Workstation,2170
+2.45,4,8,HDD,256,Linux,Family,735
+3.4,6,16,SSD,512,Windows,Business,1265
+3.7,8,32,Hybrid,1000,Linux,Gaming,1755
+2.25,2,8,HDD,128,Chrome OS,Family,670
+4.05,8,64,SSD,1000,Linux,Workstation,2175
+2.8,4,8,SSD,256,Windows,Family,800
+3.5,6,32,Hybrid,512,Linux,Gaming,1660
+2.6,4,8,HDD,256,Linux,Family,760
+3.85,8,32,SSD,512,Windows,Gaming,1600
+2.1,2,4,HDD,128,Chrome OS,Family,635
+3.1,6,16,Hybrid,512,Linux,Business,1230
+3.7,8,64,Hybrid,1000,Windows,Workstation,2120
+2.35,2,8,SSD,256,Linux,Family,720
+3.95,8,32,SSD,1000,Linux,Gaming,1820
+2.85,4,8,HDD,256,Windows,Family,785
+3.3,6,16,SSD,512,Linux,Business,1210
+2.6,4,8,SSD,256,Linux,Family,765
+3.85,8,64,Hybrid,1000,Linux,Workstation,2130
+2.25,2,4,HDD,128,Chrome OS,Family,635
+4.15,8,32,SSD,512,Windows,Gaming,1845
+3.0,6,16,Hybrid,512,Linux,Business,1250
+2.55,4,8,SSD,256,Linux,Family,755
+3.6,8,32,SSD,512,Linux,Gaming,1685
+2.2,2,8,HDD,128,Chrome OS,Family,650
+3.15,8,64,Hybrid,1000,Linux,Workstation,2095
+2.75,4,8,SSD,256,Windows,Family,795
+4.05,8,32,Hybrid,1000,Linux,Gaming,1780
+3.0,6,16,SSD,512,Windows,Business,1240
+2.45,4,8,HDD,256,Linux,Family,750
+3.75,8,64,Hybrid,1000,Linux,Workstation,2120
+2.2,2,4,SSD,128,Chrome OS,Family,630
+3.55,6,32,Hybrid,512,Linux,Gaming,1635
+2.85,4,8,SSD,256,Windows,Family,790
+3.9,8,32,SSD,1000,Linux,Gaming,1800
+2.45,2,8,HDD,128,Windows,Family,695
+3.3,6,16,SSD,512,MacOS,Business,1195
+4.1,8,64,Hybrid,1000,Linux,Workstation,2175
+2.5,4,8,HDD,256,Linux,Family,740
+3.45,6,16,SSD,512,Windows,Business,1270
+3.75,8,32,Hybrid,1000,Linux,Gaming,1760
+2.3,2,8,HDD,128,Chrome OS,Family,675
+4.1,8,64,SSD,1000,Linux,Workstation,2180
+2.85,4,8,SSD,256,Windows,Family,805
+3.55,6,32,Hybrid,512,Linux,Gaming,1665
+2.65,4,8,HDD,256,Linux,Family,765
+3.9,8,32,SSD,512,Windows,Gaming,1605
+2.15,2,4,HDD,128,Chrome OS,Family,640
+3.15,6,16,Hybrid,512,Linux,Business,1235
+3.75,8,64,Hybrid,1000,Windows,Workstation,2125
+2.4,2,8,SSD,256,Linux,Family,725
+4.0,8,32,SSD,1000,Linux,Gaming,1825
+2.9,4,8,HDD,256,Windows,Family,790
+3.35,6,16,SSD,512,Linux,Business,1215
+2.65,4,8,SSD,256,Linux,Family,770
+3.9,8,64,Hybrid,1000,Linux,Workstation,2135
+2.3,2,4,HDD,128,Chrome OS,Family,640
+4.2,8,32,SSD,512,Windows,Gaming,1850
+3.05,6,16,Hybrid,512,Linux,Business,1255
+2.6,4,8,SSD,256,Linux,Family,760
+3.65,8,32,SSD,512,Linux,Gaming,1690
+2.25,2,8,HDD,128,Chrome OS,Family,655
+3.2,8,64,Hybrid,1000,Linux,Workstation,2100
+2.8,4,8,SSD,256,Windows,Family,800
+4.1,8,32,Hybrid,1000,Linux,Gaming,1785
+3.05,6,16,SSD,512,Windows,Business,1245
+2.5,4,8,HDD,256,Linux,Family,755
+3.8,8,64,Hybrid,1000,Linux,Workstation,2125
+2.25,2,4,SSD,128,Chrome OS,Family,635
+3.6,6,32,Hybrid,512,Linux,Gaming,1640
+2.9,4,8,SSD,256,Windows,Family,795
+3.95,8,32,SSD,1000,Linux,Gaming,1805
+2.5,2,8,HDD,128,Windows,Family,700
+3.35,6,16,SSD,512,MacOS,Business,1200
+4.15,8,64,Hybrid,1000,Linux,Workstation,2180
+2.55,4,8,HDD,256,Linux,Family,745
+3.5,6,16,SSD,512,Windows,Business,1275
+3.8,8,32,Hybrid,1000,Linux,Gaming,1765
+2.35,2,8,HDD,128,Chrome OS,Family,680
+4.15,8,64,SSD,1000,Linux,Workstation,2185
+2.9,4,8,SSD,256,Windows,Family,810
+3.6,6,32,Hybrid,512,Linux,Gaming,1670
+2.7,4,8,HDD,256,Linux,Family,770
+3.95,8,32,SSD,512,Windows,Gaming,1610
+2.2,2,4,HDD,128,Chrome OS,Family,645
+3.2,6,16,Hybrid,512,Linux,Business,1240
+3.8,8,64,Hybrid,1000,Windows,Workstation,2130
+2.45,2,8,SSD,256,Linux,Family,730
+4.05,8,32,SSD,1000,Linux,Gaming,1830
+2.95,4,8,HDD,256,Windows,Family,795
+3.4,6,16,SSD,512,Linux,Business,1220
+2.7,4,8,SSD,256,Linux,Family,775
+3.95,8,64,Hybrid,1000,Linux,Workstation,2140
+2.35,2,4,HDD,128,Chrome OS,Family,645
+4.25,8,32,SSD,512,Windows,Gaming,1855
+3.1,6,16,Hybrid,512,Linux,Business,1260
+2.65,4,8,SSD,256,Linux,Family,765
+3.7,8,32,SSD,512,Linux,Gaming,1695
+2.3,2,8,HDD,128,Chrome OS,Family,660
+3.25,8,64,Hybrid,1000,Linux,Workstation,2105
+2.85,4,8,SSD,256,Windows,Family,805
+4.15,8,32,Hybrid,1000,Linux,Gaming,1790
+3.1,6,16,SSD,512,Windows,Business,1250
+2.55,4,8,HDD,256,Linux,Family,760

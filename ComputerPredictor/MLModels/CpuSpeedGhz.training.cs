@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 using Microsoft.ML.Trainers;
-using Microsoft.ML.Trainers.LightGbm;
+using Microsoft.ML.Trainers.FastTree;
 using Microsoft.ML.Transforms;
 
 namespace ComputerPredictor
 {
     public partial class CpuSpeedGhz
     {
-        public const string RetrainFilePath =  @"C:\Users\simon\source\repos\ComputerPredictor\ComputerPredictor\Files\computers.csv";
+        public const string RetrainFilePath =  @"C:\Users\simon\source\repos\DotNetComputerPredictor\ComputerPredictor\Files\computers.csv";
         public const char RetrainSeparatorChar = ',';
         public const bool RetrainHasHeader =  true;
         public const bool RetrainAllowQuoting =  false;
@@ -94,7 +94,7 @@ namespace ComputerPredictor
             var pipeline = mlContext.Transforms.Categorical.OneHotEncoding(new []{new InputOutputColumnPair(@"storage_type", @"storage_type"),new InputOutputColumnPair(@"operating_system", @"operating_system"),new InputOutputColumnPair(@"target_use_case", @"target_use_case")}, outputKind: OneHotEncodingEstimator.OutputKind.Indicator)      
                                     .Append(mlContext.Transforms.ReplaceMissingValues(new []{new InputOutputColumnPair(@"cpu_cores", @"cpu_cores"),new InputOutputColumnPair(@"ram_gb", @"ram_gb"),new InputOutputColumnPair(@"storage_gb", @"storage_gb"),new InputOutputColumnPair(@"price_usd", @"price_usd")}))      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"storage_type",@"operating_system",@"target_use_case",@"cpu_cores",@"ram_gb",@"storage_gb",@"price_usd"}))      
-                                    .Append(mlContext.Regression.Trainers.LightGbm(new LightGbmRegressionTrainer.Options(){NumberOfLeaves=4,NumberOfIterations=1254,MinimumExampleCountPerLeaf=20,LearningRate=0.9999997766729865,LabelColumnName=@"cpu_speed_ghz",FeatureColumnName=@"Features",Booster=new GradientBooster.Options(){SubsampleFraction=0.9999997766729865,FeatureFraction=0.9891354486398565,L1Regularization=2E-10,L2Regularization=0.7929576002862442},MaximumBinCountPerFeature=217}));
+                                    .Append(mlContext.Regression.Trainers.FastForest(new FastForestRegressionTrainer.Options(){NumberOfTrees=4,NumberOfLeaves=4,FeatureFraction=1F,LabelColumnName=@"cpu_speed_ghz",FeatureColumnName=@"Features"}));
 
             return pipeline;
         }

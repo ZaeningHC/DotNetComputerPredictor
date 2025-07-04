@@ -8,7 +8,7 @@
     "KeepPunctuations": false,
     "AllowQuoting": false,
     "Type": "TabularFile",
-    "FilePath": "C:\\Users\\simon\\source\\repos\\ComputerPredictor\\ComputerPredictor\\Files\\computers.csv",
+    "FilePath": "C:\\Users\\simon\\source\\repos\\DotNetComputerPredictor\\ComputerPredictor\\Files\\computers.csv",
     "Delimiter": ",",
     "DecimalMarker": ".",
     "HasHeader": true,
@@ -92,7 +92,7 @@
         "Type": "Trial",
         "TrainerName": "FastForestRegression",
         "Score": 0.99065701016361418,
-        "RuntimeInSeconds": 0.39,
+        "RuntimeInSeconds": 0.409,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e4",
           "e0": {
@@ -155,7 +155,7 @@
     },
     "Schema": "e0 * e1 * e2 * (e3 + e4 + e5 + e6 + e7)",
     "MetricName": "RSquared",
-    "ModelFilePath": "C:\\Users\\simon\\source\\repos\\ComputerPredictor\\ComputerPredictor\\MLModels\\PriceUsd.mlnet"
+    "ModelFilePath": "C:\\Users\\simon\\source\\repos\\DotNetComputerPredictor\\ComputerPredictor\\MLModels\\PriceUsd.mlnet"
   },
   "Type": "TrainingConfig",
   "Version": 5,

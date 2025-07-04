@@ -15,7 +15,7 @@ namespace ComputerPredictor
 {
     public partial class StorageGb
     {
-        public const string RetrainFilePath =  @"C:\Users\simon\source\repos\ComputerPredictor\ComputerPredictor\Files\computers.csv";
+        public const string RetrainFilePath =  @"C:\Users\simon\source\repos\DotNetComputerPredictor\ComputerPredictor\Files\computers.csv";
         public const char RetrainSeparatorChar = ',';
         public const bool RetrainHasHeader =  true;
         public const bool RetrainAllowQuoting =  false;
@@ -95,7 +95,7 @@ namespace ComputerPredictor
                                     .Append(mlContext.Transforms.ReplaceMissingValues(new []{new InputOutputColumnPair(@"cpu_speed_ghz", @"cpu_speed_ghz"),new InputOutputColumnPair(@"cpu_cores", @"cpu_cores"),new InputOutputColumnPair(@"ram_gb", @"ram_gb"),new InputOutputColumnPair(@"price_usd", @"price_usd")}))      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"storage_type",@"operating_system",@"target_use_case",@"cpu_speed_ghz",@"cpu_cores",@"ram_gb",@"price_usd"}))      
                                     .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName:@"storage_gb",inputColumnName:@"storage_gb",addKeyValueAnnotationsAsText:false))      
-                                    .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(binaryEstimator:mlContext.BinaryClassification.Trainers.FastForest(new FastForestBinaryTrainer.Options(){NumberOfTrees=4,NumberOfLeaves=4,FeatureFraction=0.9277762F,LabelColumnName=@"storage_gb",FeatureColumnName=@"Features"}),labelColumnName:@"storage_gb"))      
+                                    .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(binaryEstimator:mlContext.BinaryClassification.Trainers.FastForest(new FastForestBinaryTrainer.Options(){NumberOfTrees=4,NumberOfLeaves=5,FeatureFraction=0.9110484F,LabelColumnName=@"storage_gb",FeatureColumnName=@"Features"}),labelColumnName:@"storage_gb"))      
                                     .Append(mlContext.Transforms.Conversion.MapKeyToValue(outputColumnName:@"PredictedLabel",inputColumnName:@"PredictedLabel"));
 
             return pipeline;

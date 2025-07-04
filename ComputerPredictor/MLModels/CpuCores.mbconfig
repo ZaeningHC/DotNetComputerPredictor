@@ -8,7 +8,7 @@
     "KeepPunctuations": false,
     "AllowQuoting": false,
     "Type": "TabularFile",
-    "FilePath": "C:\\Users\\simon\\source\\repos\\ComputerPredictor\\ComputerPredictor\\Files\\computers.csv",
+    "FilePath": "C:\\Users\\simon\\source\\repos\\DotNetComputerPredictor\\ComputerPredictor\\Files\\computers.csv",
     "Delimiter": ",",
     "DecimalMarker": ".",
     "HasHeader": true,
@@ -92,7 +92,7 @@
         "Type": "Trial",
         "TrainerName": "FastTreeOva",
         "Score": 0.92901043503788938,
-        "RuntimeInSeconds": 0.984,
+        "RuntimeInSeconds": 1.194,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e11",
           "e0": {
@@ -158,11 +158,11 @@
       {
         "Version": 1,
         "Type": "Trial",
-        "TrainerName": "FastTreeOva",
-        "Score": 0.91255644377955014,
-        "RuntimeInSeconds": 0.757,
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.91236922062857118,
+        "RuntimeInSeconds": 0.567,
         "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e11",
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e8 * e11",
           "e0": {
             "OutputColumnNames": [
               "storage_type",
@@ -210,16 +210,11 @@
             "InputColumnName": "cpu_cores",
             "AddKeyValueAnnotationsAsText": false
           },
-          "e4": {
-            "NumberOfLeaves": 6,
-            "MinimumExampleCountPerLeaf": 22,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 176,
-            "FeatureFraction": 0.99126479674014978,
-            "LearningRate": 0.068017701362368232,
+          "e8": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
             "LabelColumnName": "cpu_cores",
-            "FeatureColumnName": "Features",
-            "DiskTranspose": false
+            "FeatureColumnName": "Features"
           }
         }
       }
@@ -240,7 +235,7 @@
     },
     "Schema": "e0 * e1 * e2 * e3 * (e4 + e5 + e6 + e7 + e8 + e9 + e10) * e11",
     "MetricName": "MacroAccuracy",
-    "ModelFilePath": "C:\\Users\\simon\\source\\repos\\ComputerPredictor\\ComputerPredictor\\CpuCores.mlnet"
+    "ModelFilePath": "C:\\Users\\simon\\source\\repos\\DotNetComputerPredictor\\ComputerPredictor\\MLModels\\CpuCores.mlnet"
   },
   "Type": "TrainingConfig",
   "Version": 5,

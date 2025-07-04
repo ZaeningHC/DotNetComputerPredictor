@@ -8,7 +8,7 @@
     "KeepPunctuations": false,
     "AllowQuoting": false,
     "Type": "TabularFile",
-    "FilePath": "C:\\Users\\simon\\source\\repos\\ComputerPredictor\\ComputerPredictor\\Files\\computers.csv",
+    "FilePath": "C:\\Users\\simon\\source\\repos\\DotNetComputerPredictor\\ComputerPredictor\\Files\\computers.csv",
     "Delimiter": ",",
     "DecimalMarker": ".",
     "HasHeader": true,
@@ -91,8 +91,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "LightGbmMulti",
-        "Score": 0.94075025066960549,
-        "RuntimeInSeconds": 0.111,
+        "Score": 0.94445743145743166,
+        "RuntimeInSeconds": 1.674,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e6 * e11",
           "e0": {
@@ -143,15 +143,15 @@
             "AddKeyValueAnnotationsAsText": false
           },
           "e6": {
-            "NumberOfLeaves": 237,
+            "NumberOfLeaves": 4,
             "MinimumExampleCountPerLeaf": 20,
-            "LearningRate": 0.99999977667298645,
-            "NumberOfTrees": 4,
-            "SubsampleFraction": 0.5606044039074134,
-            "MaximumBinCountPerFeature": 179,
-            "FeatureFraction": 0.99999999,
-            "L1Regularization": 3.4412111589780984E-10,
-            "L2Regularization": 0.58744795565634489,
+            "LearningRate": 0.64050115863566515,
+            "NumberOfTrees": 649,
+            "SubsampleFraction": 0.99999977667298645,
+            "MaximumBinCountPerFeature": 239,
+            "FeatureFraction": 0.96770187587655643,
+            "L1Regularization": 3.1044640365429828E-10,
+            "L2Regularization": 0.99999977667298645,
             "LabelColumnName": "ram_gb",
             "FeatureColumnName": "Features"
           }
@@ -161,8 +161,8 @@
         "Version": 1,
         "Type": "Trial",
         "TrainerName": "FastTreeOva",
-        "Score": 0.92874449124449132,
-        "RuntimeInSeconds": 1.066,
+        "Score": 0.92995661245661254,
+        "RuntimeInSeconds": 0.996,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e11",
           "e0": {
@@ -214,11 +214,11 @@
           },
           "e4": {
             "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 24,
+            "MinimumExampleCountPerLeaf": 23,
             "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 264,
-            "FeatureFraction": 0.96102680832088938,
-            "LearningRate": 0.1653555695405588,
+            "MaximumBinCountPerFeature": 184,
+            "FeatureFraction": 0.99999999,
+            "LearningRate": 0.11937503736999888,
             "LabelColumnName": "ram_gb",
             "FeatureColumnName": "Features",
             "DiskTranspose": false
@@ -230,7 +230,7 @@
         "Type": "Trial",
         "TrainerName": "FastTreeOva",
         "Score": 0.9277343902343903,
-        "RuntimeInSeconds": 1.303,
+        "RuntimeInSeconds": 1.227,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e11",
           "e0": {
@@ -298,75 +298,7 @@
         "Type": "Trial",
         "TrainerName": "FastTreeOva",
         "Score": 0.9277343902343903,
-        "RuntimeInSeconds": 0.939,
-        "Parameter": {
-          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e11",
-          "e0": {
-            "OutputColumnNames": [
-              "storage_type",
-              "operating_system",
-              "target_use_case"
-            ],
-            "InputColumnNames": [
-              "storage_type",
-              "operating_system",
-              "target_use_case"
-            ]
-          },
-          "e1": {
-            "OutputColumnNames": [
-              "cpu_speed_ghz",
-              "cpu_cores",
-              "storage_gb",
-              "price_usd"
-            ],
-            "InputColumnNames": [
-              "cpu_speed_ghz",
-              "cpu_cores",
-              "storage_gb",
-              "price_usd"
-            ]
-          },
-          "e11": {
-            "OutputColumnName": "PredictedLabel",
-            "InputColumnName": "PredictedLabel"
-          },
-          "e2": {
-            "InputColumnNames": [
-              "storage_type",
-              "operating_system",
-              "target_use_case",
-              "cpu_speed_ghz",
-              "cpu_cores",
-              "storage_gb",
-              "price_usd"
-            ],
-            "OutputColumnName": "Features"
-          },
-          "e3": {
-            "OutputColumnName": "ram_gb",
-            "InputColumnName": "ram_gb",
-            "AddKeyValueAnnotationsAsText": false
-          },
-          "e4": {
-            "NumberOfLeaves": 6,
-            "MinimumExampleCountPerLeaf": 16,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 288,
-            "FeatureFraction": 0.99999999,
-            "LearningRate": 0.12755695214482615,
-            "LabelColumnName": "ram_gb",
-            "FeatureColumnName": "Features",
-            "DiskTranspose": false
-          }
-        }
-      },
-      {
-        "Version": 1,
-        "Type": "Trial",
-        "TrainerName": "FastTreeOva",
-        "Score": 0.9277343902343903,
-        "RuntimeInSeconds": 1.04,
+        "RuntimeInSeconds": 1.065,
         "Parameter": {
           "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e11",
           "e0": {
@@ -418,11 +350,79 @@
           },
           "e4": {
             "NumberOfLeaves": 4,
-            "MinimumExampleCountPerLeaf": 16,
-            "NumberOfTrees": 4,
-            "MaximumBinCountPerFeature": 243,
+            "MinimumExampleCountPerLeaf": 14,
+            "NumberOfTrees": 5,
+            "MaximumBinCountPerFeature": 212,
             "FeatureFraction": 0.99999999,
-            "LearningRate": 0.060475737392971053,
+            "LearningRate": 0.027863211595832181,
+            "LabelColumnName": "ram_gb",
+            "FeatureColumnName": "Features",
+            "DiskTranspose": false
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.92587091679027167,
+        "RuntimeInSeconds": 0.984,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e4 * e11",
+          "e0": {
+            "OutputColumnNames": [
+              "storage_type",
+              "operating_system",
+              "target_use_case"
+            ],
+            "InputColumnNames": [
+              "storage_type",
+              "operating_system",
+              "target_use_case"
+            ]
+          },
+          "e1": {
+            "OutputColumnNames": [
+              "cpu_speed_ghz",
+              "cpu_cores",
+              "storage_gb",
+              "price_usd"
+            ],
+            "InputColumnNames": [
+              "cpu_speed_ghz",
+              "cpu_cores",
+              "storage_gb",
+              "price_usd"
+            ]
+          },
+          "e11": {
+            "OutputColumnName": "PredictedLabel",
+            "InputColumnName": "PredictedLabel"
+          },
+          "e2": {
+            "InputColumnNames": [
+              "storage_type",
+              "operating_system",
+              "target_use_case",
+              "cpu_speed_ghz",
+              "cpu_cores",
+              "storage_gb",
+              "price_usd"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e3": {
+            "OutputColumnName": "ram_gb",
+            "InputColumnName": "ram_gb",
+            "AddKeyValueAnnotationsAsText": false
+          },
+          "e4": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 35,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 159,
+            "FeatureFraction": 0.93076019536681032,
+            "LearningRate": 0.51144138564487029,
             "LabelColumnName": "ram_gb",
             "FeatureColumnName": "Features",
             "DiskTranspose": false
@@ -446,7 +446,7 @@
     },
     "Schema": "e0 * e1 * e2 * e3 * (e4 + e5 + e6 + e7 + e8 + e9 + e10) * e11",
     "MetricName": "MacroAccuracy",
-    "ModelFilePath": "C:\\Users\\simon\\source\\repos\\ComputerPredictor\\ComputerPredictor\\MLModels\\RamGb.mlnet"
+    "ModelFilePath": "C:\\Users\\simon\\source\\repos\\DotNetComputerPredictor\\ComputerPredictor\\MLModels\\RamGb.mlnet"
   },
   "Type": "TrainingConfig",
   "Version": 5,

@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 using Microsoft.ML.Trainers;
-using Microsoft.ML.Trainers.LightGbm;
+using Microsoft.ML.Trainers.FastTree;
 using Microsoft.ML.Transforms;
 
 namespace ComputerPredictor
 {
     public partial class OperatingSystem
     {
-        public const string RetrainFilePath =  @"C:\Users\simon\source\repos\ComputerPredictor\ComputerPredictor\Files\computers.csv";
+        public const string RetrainFilePath =  @"C:\Users\simon\source\repos\DotNetComputerPredictor\ComputerPredictor\Files\computers.csv";
         public const char RetrainSeparatorChar = ',';
         public const bool RetrainHasHeader =  true;
         public const bool RetrainAllowQuoting =  false;
@@ -95,7 +95,7 @@ namespace ComputerPredictor
                                     .Append(mlContext.Transforms.ReplaceMissingValues(new []{new InputOutputColumnPair(@"cpu_speed_ghz", @"cpu_speed_ghz"),new InputOutputColumnPair(@"cpu_cores", @"cpu_cores"),new InputOutputColumnPair(@"ram_gb", @"ram_gb"),new InputOutputColumnPair(@"storage_gb", @"storage_gb"),new InputOutputColumnPair(@"price_usd", @"price_usd")}))      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"storage_type",@"target_use_case",@"cpu_speed_ghz",@"cpu_cores",@"ram_gb",@"storage_gb",@"price_usd"}))      
                                     .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName:@"operating_system",inputColumnName:@"operating_system",addKeyValueAnnotationsAsText:false))      
-                                    .Append(mlContext.MulticlassClassification.Trainers.LightGbm(new LightGbmMulticlassTrainer.Options(){NumberOfLeaves=4,NumberOfIterations=4,MinimumExampleCountPerLeaf=20,LearningRate=0.9999997766729865,LabelColumnName=@"operating_system",FeatureColumnName=@"Features",Booster=new GradientBooster.Options(){SubsampleFraction=0.36624413140928663,FeatureFraction=0.99999999,L1Regularization=2.5565692510541515E-10,L2Regularization=0.7451341832878817},MaximumBinCountPerFeature=246}))      
+                                    .Append(mlContext.MulticlassClassification.Trainers.OneVersusAll(binaryEstimator:mlContext.BinaryClassification.Trainers.FastTree(new FastTreeBinaryTrainer.Options(){NumberOfLeaves=7,MinimumExampleCountPerLeaf=21,NumberOfTrees=6,MaximumBinCountPerFeature=561,FeatureFraction=0.9574773309313532,LearningRate=0.3519557896681279,LabelColumnName=@"operating_system",FeatureColumnName=@"Features",DiskTranspose=false}),labelColumnName: @"operating_system"))      
                                     .Append(mlContext.Transforms.Conversion.MapKeyToValue(outputColumnName:@"PredictedLabel",inputColumnName:@"PredictedLabel"));
 
             return pipeline;
